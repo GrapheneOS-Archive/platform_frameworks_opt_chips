@@ -15,11 +15,13 @@ import android.graphics.drawable.StateListDrawable;
 import android.util.AttributeSet;
 import android.widget.ImageView;
 
+import androidx.appcompat.widget.AppCompatImageView;
+
 /**
  * An ImageView class with a circle mask so that all images are drawn in a
  * circle instead of a square.
  */
-public class CircularImageView extends ImageView {
+public class CircularImageView extends AppCompatImageView {
     private static float circularImageBorder = 1f;
 
     private final Matrix matrix;
